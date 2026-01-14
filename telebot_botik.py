@@ -2,7 +2,7 @@ import telebot
 from telebot.types import ReactionTypeEmoji
 import random
 from bot_logic import gen_pass, flip_coin
-bot = telebot.TeleBot("TOKEN")
+bot = telebot.TeleBot("8554078106:AAGOcgYMxS3YK_NPPmQ3wEPVvlz-W2yFS5w")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
@@ -66,6 +66,11 @@ def create_poll(message):
 def handle_poll(poll):
     # This handler can be used to log User answers and to send next poll
     pass
+
+
+
+
+
 
 
 bot.infinity_polling()
